@@ -1,9 +1,7 @@
-// a420de939f86e23eb0b15440c5499c52
-
+import { apiKey } from "./secrets.js";
 const weatherForm = document.querySelector(".weatherForm");
 const cityInput = document.querySelector(".cityInput");
 const card = document.querySelector(".card");
-const apiKey = "a420de939f86e23eb0b15440c5499c52";
 
 weatherForm.addEventListener("submit", async event => {
 
